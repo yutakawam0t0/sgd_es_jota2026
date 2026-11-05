@@ -1,0 +1,15 @@
+{
+    "model": "resnet18",
+    "bs_method": "exp_growth",
+    "lr_method": "warmup_cosine",
+    "init_bs": 8,
+    "init_lr": 0.1,
+    "lr_max": 0.5,
+    "epochs": 300,
+    "incr_interval": 30,
+    "warmup_epochs":30,
+    "warmup_interval":3,
+    "bs_growth_rate": 2.0,
+    "checkpoint_path": "checkpoint/warmup_cosine_lr_max0.5.pth.tar",
+    "csv_path": "../result/incr_bs_warmup_lr/warmup_cosine_lr_max0.5/"
+}

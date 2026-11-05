@@ -1,0 +1,15 @@
+{
+    "model": "resnet18",
+    "bs_method": "exp_growth",
+    "lr_method": "exp_growth",
+    "init_bs": 8,
+    "bs_max": 4096,
+    "init_lr": 0.1,
+    "lr_max": 0.2,
+    "epochs": 300,
+    "incr_interval": 30,
+    "bs_growth_rate": 4.0,
+    "lr_growth_rate": 1.9,
+    "checkpoint_path": "checkpoint/quadruply_incr_lr_max0.2.pth.tar",
+    "csv_path": "../result/incr_bs_incr_lr/quadruply_incr_lr_max0.2/"
+}

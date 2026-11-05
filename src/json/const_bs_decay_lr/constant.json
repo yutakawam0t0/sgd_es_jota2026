@@ -1,0 +1,10 @@
+{
+    "model": "resnet18",
+    "bs_method": "constant",
+    "lr_method": "constant",
+    "init_bs": 128,
+    "init_lr": 0.1,
+    "epochs": 300,
+    "checkpoint_path": "checkpoint/constant.pth.tar",
+    "csv_path": "../result/const_bs_decay_lr/constant/"
+}

@@ -1,0 +1,11 @@
+{
+    "model": "resnet18",
+    "bs_method": "constant",
+    "lr_method": "poly",
+    "init_bs": 128,
+    "init_lr": 0.1,
+    "epochs": 300,
+    "power": 2.0,
+    "checkpoint_path": "checkpoint/poly_2.0.pth.tar",
+    "csv_path": "../result/const_bs_decay_lr/poly_2.0/"
+}
